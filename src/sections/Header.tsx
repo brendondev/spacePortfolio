@@ -12,7 +12,7 @@ export const Header = () => {
 					Sobre mim
 				</a>
 				<a
-					href="/#"
+					href="/contato"
 					className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
 				>
 					Contato
