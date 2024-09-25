@@ -1,4 +1,4 @@
-import memojiImage from "@/assets/images/memoji-computer.png";
+import brendonAvatar from "@/assets/images/brendonAvatar.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
@@ -29,17 +29,32 @@ export const HeroSection = () => {
 			<HeroOrbit size={430} rotation={-14}>
 				<SparkleIcon className="size-8 text-emerald-300/20" />
 			</HeroOrbit>
-			<HeroOrbit size={440} rotation={0}>
+			<HeroOrbit size={440} rotation={79}>
 				<SparkleIcon className="size-5 text-emerald-300/20" />
+			</HeroOrbit>
+			<HeroOrbit size={440} rotation={79}>
+				<SparkleIcon className="size-5 text-emerald-300/20" />
+			</HeroOrbit>
+			<HeroOrbit size={710} rotation={144}>
+				<SparkleIcon className="size-14 text-emerald-300/20" />
+			</HeroOrbit>
+			<HeroOrbit size={720} rotation={85}>
+				<div className="size-3 bg-emerald-300/20 rounded-full" />
+			</HeroOrbit>
+			<HeroOrbit size={520} rotation={-41}>
+				<div className="size-2 bg-emerald-300/20 rounded-full" />
+			</HeroOrbit>
+			<HeroOrbit size={650} rotation={-50}>
+				<div className="size-2 bg-emerald-300/20 rounded-full" />
 			</HeroOrbit>
 			<div className="container">
 				<div className="flex flex-col items-center">
 					<Image
-						src={memojiImage}
-						className="size-[100px]"
+						src={brendonAvatar}
+						className="size-[200px]"
 						alt="Pessoa atrás do notebook"
 					/>
-					<div className="bg-gray-950 border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
+					<div className="bg-gray-950 border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg -mt-7">
 						<div className="bg-green-500 size-2.5 rounded-full " />
 						<div className="text-sm font-medium">
 							Disponível para novos projetos!
