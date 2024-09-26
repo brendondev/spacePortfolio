@@ -8,39 +8,39 @@ import grainImage from "@/assets/images/grain.jpg";
 
 const portfolioProjects = [
 	{
-		company: "Acme Corp",
-		year: "2022",
-		title: "Dark Saas Landing Page",
+		company: "Example One",
+		year: "2024",
+		title: "Example One",
 		results: [
-			{ title: "Enhanced user experience by 40%" },
-			{ title: "Improved site speed by 50%" },
-			{ title: "Increased mobile traffic by 35%" },
+			{ title: "Next.js, Tailwind, TypeScript" },
+			{ title: "Site rápido e Intuitivo" },
+			{ title: "Responsivo" },
 		],
-		link: "https://youtu.be/4k7IdSLxh6w",
+		link: "#",
 		image: darkSaasLandingPage,
 	},
 	{
-		company: "Innovative Co",
+		company: "Example Two",
 		year: "2021",
-		title: "Light Saas Landing Page",
+		title: "Example Two",
 		results: [
-			{ title: "Boosted sales by 20%" },
-			{ title: "Expanded customer reach by 35%" },
-			{ title: "Increased brand awareness by 15%" },
+			{ title: "Next.js, Tailwind, TypeScript" },
+			{ title: "Site rápido e Intuitivo" },
+			{ title: "Responsivo" },
 		],
-		link: "https://youtu.be/7hi5zwO75yc",
+		link: "#",
 		image: lightSaasLandingPage,
 	},
 	{
-		company: "Quantum Dynamics",
+		company: "Example Three",
 		year: "2023",
 		title: "AI Startup Landing Page",
 		results: [
-			{ title: "Enhanced user experience by 40%" },
-			{ title: "Improved site speed by 50%" },
-			{ title: "Increased mobile traffic by 35%" },
+			{ title: "Next.js, Tailwind, TypeScript" },
+			{ title: "Site rápido e Intuitivo" },
+			{ title: "Responsivo" },
 		],
-		link: "https://youtu.be/Z7I5uSRHMHg",
+		link: "#",
 		image: aiStartupLandingPage,
 	},
 ];
@@ -51,11 +51,11 @@ export const ProjectsSection = () => {
 			<div className="container">
 				<div className="fex justify-center">
 					<p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-center text-transparent bg-clip-text">
-						Real-world Results
+						Resultados
 					</p>
 				</div>
 				<h2 className="font-serif text-3xl md:text-5xl text-center mt-6">
-					Featured Projects
+					Projetos em destaque
 				</h2>
 				<p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">
 					Veja como eu transformo conceitos em projetos digitais engajados
