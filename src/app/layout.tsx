@@ -13,6 +13,7 @@ const calistoga = Calistoga({
 export const metadata: Metadata = {
 	title: "brendon.dev",
 	description: "Created with the help of Frontend Tribe",
+	// description: "Created with the help of Frontend Tribe",
 };
 
 export default function RootLayout({
