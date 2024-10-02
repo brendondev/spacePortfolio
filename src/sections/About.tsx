@@ -9,6 +9,7 @@ import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
+import { CertifiesItems } from "@/components/CertifiesItems";
 
 const toolboxItems = [
 	{
@@ -78,6 +79,19 @@ const hobbies = [
 	},
 ];
 
+const certifiesItems = [
+	{
+		title: "NLW Pocket: Javascript - Full-stack Intermediário",
+		iconType: JavascriptIcon,
+		link: "#",
+	},
+	{
+		title: "Enable",
+		iconType: JavascriptIcon,
+		link: "#",
+	},
+];
+
 export const AboutSection = () => {
 	return (
 		<div className="py-20 lg:py-28">
@@ -91,11 +105,11 @@ export const AboutSection = () => {
 					<div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
 						<Card className="h-[320px] md:col-span-2 lg:col-span-1">
 							<CardHeader
-								title="My Reads"
-								description="Explore the books shaping my perspectives"
+								title="Certificados"
+								description="Explore the books shaping"
 							/>
-							<div className="w-40 mx-auto mt-8">
-								<Image src={bookImage} alt="Book cover" />
+							<div className="w-40 mx-auto">
+								<CertifiesItems items={certifiesItems} className="mt-5" />
 							</div>
 						</Card>
 						<Card className="h-[320px] p-0 md:col-span-3 lg:col-span-2">
