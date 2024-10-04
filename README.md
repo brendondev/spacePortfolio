@@ -1,5 +1,7 @@
 # 📚 Portfolio Site 2.0
 
+![Uploading image.png…]()
+
 Este é o repositório do meu portfólio pessoal, desenvolvido com Next.js, React e Tailwind CSS.
 
 ## 📑 Índice
@@ -12,7 +14,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido com Next.js, Reac
 - [⚙️ Configuração](#️-configura%C3%A7%C3%A3o)
 - [🛠️ Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [🤝 Contribuição](#-contribui%C3%A7%C3%A3o)
-- [📄 Licença](#-licença)
+- [📄 Licença](#-licen%C3%A7a)
 
 ## 📖 Sobre
 
