@@ -27,9 +27,10 @@ Para instalar e configurar o projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório**:
    git clone https://github.com/brendondev/spacePortfolio
+
    cd spacePortfolio
 
-2. **Instale as dependências**:
+3. **Instale as dependências**:
    npm install
 
 ## 🚀 Uso
