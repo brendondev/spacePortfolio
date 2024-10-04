@@ -26,8 +26,8 @@ Este projeto é um portfólio pessoal que exibe meus projetos, habilidades e inf
 Para instalar e configurar o projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório**:
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/brendondev/spacePortfolio
+   cd spacePortfolio
 
 2. **Instale as dependências**:
    npm install
